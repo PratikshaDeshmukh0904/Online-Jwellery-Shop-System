@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="../css/ProductDetails.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div class="Admin">
+        <div class="one">
+            <div class="Welcome">
+               <div> <p>Welcome Admin</p></div>
+                <div class="time"><a href="../Html/Home.html">&times;</a></div>
+            
+            </div>
+            <div class="Malbar"><h2>Welcome<br> Malabar Jwellers</h2></div>
+            <div class="MalabarMenu">
+                <ul>
+                    <li><a>Customer</a>
+                    <ul>
+                        <li><a href="../Html/Registeredcustomer.html">Registered Customer</a></li>
+                        
+                    </ul>
+                    </li>
+                    <li><a>Product</a>
+                    <ul>
+                        <li><a href="../Html/AddCategory.html">Add New Category</a></li>
+                        <li><a href="../Html/AddSubCategory.html">Add Sub Category</a></li>
+                        <li><a href="../Html/ProductDetails.html">Manage Product</a></li>
+                    </ul>
+                    </li>
+                    <li><a>Order</a>
+                    <ul>
+                        <li><a href="../Html/UserOrderList.html">User Order List</a></li>
+                        
+                    </ul>
+                    </li>
+                    <li><a>Stock</a>
+                    <ul>
+                        <li><a href="../Html/AddStock.html">Add Stock</a></li>
+                        <li><a href="../Html/AllStock.html">View Stock</a></li>
+                    </ul>
+                    </li>
+                    
+                    <li><a>Employee</a>
+                    <ul>
+                        <li><a href="../Html/AddNewEmployee.html">Add New Employee</a></li>
+                        <li><a href="../Html/ManageEmployee.html">Manage Employee</a></li>
+                    </ul>
+                    </li>
+                    <li><a>Report</a></li>
+                </ul>
+            </div>
+            <div class="Rates"><a>RATES</a></div>
+            <div><h5>GoldPrice(per 10Gm,22C)</h5></div>
+            <div class="price">48300</div>
+            <div><h5>SilverPrice(perkg)</h5></div>
+            <div  class="price">68000</div>
+            <div  class="MalabarMenu"><a>UPDATE PRICE</a></div>
+        </div>
+        
+        <div class="two">
+
+            <div class="ProductMain">
+                <div class="productA">
+
+                    <div class="productA1"><p>G-Price:48300</p>
+                        <p>S-Price:68000</p></div>
+
+                    <div class="productA2"><h2>Product Details</h2></div>
+                   
+                </div>
+<center>
+    <div class="productB">
+<div class="row" >
+    
+    <div class="col-md-6">
+    <label for="">Product ID</label>
+        <input type="text" name="" id="">
+    </div>
+    <div class="col-md-6">
+        <label for="">Product Name</label>
+        <input type="text" name="" id="">
+    </div>
+</div><br>
+
+<div class="row">
+    <div class="col-md-6">
+        <label>Category</label>
+        <select name="categoryname" id="categoryname">
+            <option value="Gold">Gold</option>
+            <option value="Silver">Silver</option>
+        </select>
+    </div>
+
+    <div class="col-md-6">
+        <label>Sub-Category</label>
+        <input type="text" name="" id="">
+    </div>
+</div><br>
+
+
+
+    
+        
+<div class="row">
+    <div class="col-md-6">
+        <label>Net.wt</label>
+        <input type="text">
+    </div>
+
+    <div class="col-md-6">
+        <label for="">Purity</label>
+        <select name="purity" id="purity">
+            <option value="22Cr">22cr</option>
+            <option value="75%Silver">75%Silver</option>
+        </select>
+    </div>
+</div><br>
+
+
+<div class="row">
+    <div class="col-md-6">
+        <label for="">Unit</label>
+        <select name="unit" id="unit">
+            <option value="gm">gm</option>
+            <option value="kg">kg</option>
+        </select>
+    </div>
+    <div class="col-md-6">
+        <label>Price</label>
+        <input type="text" name="" id="">
+    </div>    
+</div>  <br>
+
+<div class="row">
+    <div class="col-md-12">
+        <input type="submit" value="Add"></div>
+    </div>     
+    </div>
+    
+
+
+<div class="productD">
+    <table>
+        <tr>
+            <th></th>
+            <th>Net.wt</th>
+            <th>Unit</th>
+            <th>Purity</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        
+    </table>
+</div>
+
+<div class="productE">
+    <span><button>SAVE</button></span>
+    <span><button>Refresh</button></span>
+</div>
+</center>
+
+
+
+
+
+
+            </div>  </div>
+</body>
+</html>
