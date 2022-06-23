@@ -1,0 +1,154 @@
+
+.Admin{
+    border: 1px solid black;
+    display: flex;
+    background-image: url(../Image/shop4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.one{
+    border: 1px solid;
+    width: 20%;
+}
+.two{
+    border: 1px solid;
+    width: 80%;
+}
+.Welcome{
+    border: 1px solid red;
+    display: flex;
+}
+.time{
+    border: 1px solid;
+    margin-left: 70%;
+}
+.Malbar{
+    border: 1px solid;
+    text-align: center
+}
+.MalabarMenu{
+    border: 1px solid;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold
+
+}
+.Rates{
+    border: 1px solid;
+    padding: 20px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 20px;
+}
+h5{
+    text-align: center;
+}
+#TwoMain{
+    border: 1px solid;
+    margin: 10px;
+   
+}
+.A{
+    display: flex;
+    flex-direction: row;
+}
+
+.A>div{
+    border: 1px solid red;
+}
+.h2{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+}
+.A3{
+    background-color: black;
+    color: red;
+    height: 20%;
+    width: 5%;
+    text-align: center;
+}
+.A3>a{
+    text-decoration: none;
+    color: red;
+}
+.A1{
+    width: 10%;
+    height: 20%;
+}
+.B{
+    
+    color: white;
+    margin-right: 10px;
+}
+label{
+    padding: 20px;
+ 
+}
+.D>table,th,td{
+    border: 1px solid;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+}
+
+.E{
+    border: 1px solid;
+    display: flex;
+}
+.E>div>button{
+    width: 100px;
+    height: 50px;
+    margin: 20px;
+}
+.price{
+    border: 1px solid;
+    background-color: gray;
+    margin: 0px 10px 0px 10px;
+    text-align: center;
+    padding: 10px ;
+}
+.MalabarMenu{
+    border: 1px solid;
+   
+   box-shadow: rgba(0,0,0,0.2) 0 2px 6px 0;
+
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    width: 140px;
+    height: 60px;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+}
+ul li a{
+    text-decoration: none;
+    color: #000;
+    display: block;
+}
+ul li a:hover{
+    background-color: #0cd2f3;
+    transition: 1s all ease;
+}
+ul li ul li{
+    
+    background-color: #fff;
+    
+    width: 200px;
+    
+    position: relative;
+    left: 100px;
+    text-align: center;
+    display: none;
+
+}
+ul li:hover ul li {
+    display: block;
+}

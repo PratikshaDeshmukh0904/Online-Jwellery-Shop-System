@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../Image/backgroungimage2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gallery{
+    margin: 10px 50px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.gallery img{
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+    
+
+}
+.gallery img:hover{
+    height: 80%;
+    filter:grayscale(100%);
+    transform: scale(1.1);
+}
+p{
+    display: inline;
+    
+}
+.Img{
+    display: flex;
+    justify-content: center;
+    
+}
+.Img a{
+    box-shadow: 1px;
+    margin: 10px 5px;
+}
+.Img button{
+    float: right;
+    font-size: 20px;
+    background: lightgray;
+    margin: 5px;
+
+}

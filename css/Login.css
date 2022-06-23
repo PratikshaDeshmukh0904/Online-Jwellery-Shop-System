@@ -1,0 +1,230 @@
+body{
+    margin: 0px;
+}
+main{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    width: 1500px;
+    margin: 20px;
+}
+
+header{
+    background-color: rgb(206, 45, 112);
+    display: flex;
+    width: 100%;
+    
+}
+header>.logo{
+    padding: 20px;
+    display: flex;
+  flex-grow: 2;
+  margin: 10px;   
+}
+
+header>.search{
+    padding: 20px;
+    display: flex;
+    flex-grow: 3;
+    margin: 10px;  
+}
+header>.search>a{
+    border-bottom: 1px solid white;
+    color: white;
+    width: 100%;
+    height: 20px;
+    text-decoration: none;
+}
+header>.icon{
+    display: flex;
+    flex-direction: column;
+     flex-grow: 1;
+     margin: 10px;
+    
+}
+header>.icon>.icon1,header>.icon>.icon2{
+    border: 1px solid;
+    
+}
+.icon2{
+    display: flex;
+    margin-top: 20px;
+}
+.icon1{
+    flex-grow: 1;
+}
+.icon2>div{
+    margin: 5px;
+    color: white;
+    margin: 10px;
+    flex-grow: 3;
+}
+.Modal{
+   display: flex;
+   justify-content: center;
+}
+.login{
+  /*  background-color: rgb(231, 156, 156);*/
+    border: 5px solid lavenderblush;
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+.log{
+   
+    display: flex;
+    
+      justify-content: space-around;
+    
+}
+
+.log1>button:hover,.register>button:hover{
+     background-color: blueviolet;
+}
+.img{
+border: 1px solid;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.facebook{
+    border: 1px solid;
+    height: 30px;
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.or{
+    display:flex ;
+    justify-content: center;
+}
+.form{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+}
+.form>div>label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: black;
+   
+}
+
+.login-button{
+    padding: 10px;
+    border: 1px solid;
+    display: flex;
+    justify-content:center ;
+}
+.forget{
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    height: 20px;
+}
+.register{
+   /* background-color: rgb(231, 156, 156);*/
+    border: 5px solid lavenderblush;
+    
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+.reg1{
+    border: 1px solid;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+footer{
+    background-color: rgb(223, 172, 181);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+footer>div{
+   /* border: 1px solid;*/
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    
+}
+a{
+    color: rgb(163, 69, 69);
+    text-decoration: none;
+}
+
+
+
+
+
+.rights{
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+}
+
+#profile{
+    background-color: violet;
+    position: absolute;
+    top: 20%;
+    left: 89%;
+    display: none;
+}
+.IconProfile>a{
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.IconProfile:hover  .profile{
+    display: block;
+}
+
+ #Open-profile:hover{
+    cursor: pointer;
+    background: #3e78c7;
+
+}
+.profile>div>button{
+    background-color: red;
+    font-size: 13px;
+    
+}
+
+#Open-Register:hover{
+    background: #3e78c7;
+    cursor: pointer;
+}
+#Open-Login:hover{
+    background:  #3e78c7;
+    cursor: pointer;
+}
+.register{
+    display: none;
+}
+section{
+    
+    background-image: url(../Image/shop4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
